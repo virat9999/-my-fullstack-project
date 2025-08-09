@@ -1,9 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs "node18"
-    }
+   
 
     environment {
         FRONTEND_DIR = "frontend"
